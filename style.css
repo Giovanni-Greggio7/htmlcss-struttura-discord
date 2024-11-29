@@ -74,7 +74,6 @@ header {
 }
 
 .button1-2 {
-    
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -97,8 +96,24 @@ header {
     width: 40%;
 }
 
+.chapter1 {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 300px;
+       gap: 10px;
+}
 
+.direction {
+    flex-direction: column;
+}
 
-.chapters {
-       
+.size {
+    height: 150px;
+    width: 15%;
+}
+
+.text-2 {
+    height: 75px;
+    width: 100%;
 }
