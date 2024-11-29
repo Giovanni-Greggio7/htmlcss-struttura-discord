@@ -97,6 +97,7 @@ header {
 }
 
 .chapter1 {
+       background-color: rgb(28, 28, 198);
        display: flex;
        justify-content: center;
        align-items: center;
@@ -105,15 +106,34 @@ header {
 }
 
 .direction {
-    flex-direction: column;
+    width: 40%;
 }
 
 .size {
+    background-color: orange;
     height: 150px;
     width: 15%;
 }
 
-.text-2 {
-    height: 75px;
-    width: 100%;
+.article {
+        background-color: green;
+        height: 75px;
+}
+
+.chapter2 {
+    background-color: rgb(149, 149, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 10px;
+}
+
+.chapter3 {
+    background-color: rgb(0, 115, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 10px;
 }
