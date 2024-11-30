@@ -157,3 +157,58 @@ header {
     text-align: center;
     width: 35%;
 }
+
+footer {
+    background-color: #23272A;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+.foot-contain {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    padding-bottom: 25px;
+}
+
+.useful-links1{
+    background-color: rgb(0, 217, 255);
+    text-align: center;
+    height: 300px;
+    width: 20%;
+}
+
+.useful-links2{
+    background-color: rgb(0, 217, 255);
+    height: 300px;
+    width: 15%;
+}
+
+.ending {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-foot {
+    background-color: var(--figure-color);
+    height: 30px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.text-foot {
+    background-color: var(--title-color);
+    text-align: center;
+    height: 40px;
+}
+
+.links {
+    background-color: blue;
+    height: 15px;
+    width: 90%;
+    margin-top: 15px;
+}
+
+
